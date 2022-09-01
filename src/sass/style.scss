@@ -8,10 +8,11 @@
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .container {
-    width: 1140px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -19,7 +20,12 @@ p {
     margin: 0ch
 }
 
+a {
+    text-decoration: none
+}
+
 @import 'blocks/header';
+@import 'blocks/sidepanel';
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/menu';
