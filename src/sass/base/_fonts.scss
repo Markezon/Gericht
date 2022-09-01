@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Cormorant';
+    src: local('../fonts/cormorant/Cormorant Upright Regular'), local('Cormorant-Upright-Regular'),
+        url('../fonts/cormorant/CormorantUpright-Regular.woff2') format('woff2'),
+        url('../fonts/cormorant/CormorantUpright-Regular.woff') format('woff'),
+        url('../fonts/cormorant/CormorantUpright-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: local('../fonts/cormorant/Cormorant Upright Bold'), local('Cormorant-Upright-Bold'),
+        url('../fonts/cormorant/CormorantUpright-Bold.woff2') format('woff2'),
+        url('../fonts/cormorant/CormorantUpright-Bold.woff') format('woff'),
+        url('../fonts/cormorant/CormorantUpright-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: local('../fonts/cormorant/Cormorant Upright SemiBold'), local('Cormorant-Upright-SemiBold'),
+        url('../fonts/cormorant/CormorantUpright-SemiBold.woff2') format('woff2'),
+        url('../fonts/cormorant/CormorantUpright-Bold.woff') format('woff'),
+        url('../fonts/cormorant/CormorantUpright-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
