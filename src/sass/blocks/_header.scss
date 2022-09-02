@@ -1,6 +1,8 @@
 .header {
-    min-height: 1145px;
+	position: relative;
+    min-height: 1000px;
     background: #0C0B08;
+
     &__wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -8,6 +10,14 @@
 		height: 121px;
         width: 1300px;
         margin: 0 auto;
+		a {
+			text-decoration: none;
+			&:hover {
+				transition: all 0.6s;
+				color: $main-color;
+				
+			} 
+		}
     }
     &__logo {
         font-family: 'Cormorant';
@@ -18,12 +28,17 @@
         text-align: center;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: #FFFFFF;		
 
     }
     &__devider {
         margin: 0 30px 0 50px;
     }
+	&__scroll {
+		position: absolute;
+		bottom: 100px;
+		right: 120px;
+	}
     
 }
 
@@ -307,5 +322,111 @@
 		display: inline-block;
 		margin-right: 10px;
 		transform: rotate(90deg);
+	}
+}
+
+//slider
+
+
+.swiper {
+    margin-top: 48px;
+    width: 1300px;
+    height: 800px;
+	&-slide {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.slide {
+	&__block1 {
+		padding-top: 127.5px;
+		width: 455px;
+		height: 736px;
+	}
+	&__block2 {
+		position: relative;
+		height: 736px;
+		width: 667px;
+	}
+	&__square1 {
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		background: #DCCA87;
+		bottom: 0px;
+		left: 0px;
+		z-index: -5;
+	}
+	&__square2 {
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		background: #DCCA87;
+		top: 0px;
+		right: 0px;
+		z-index: -5;
+	}
+	&__img {
+		z-index: 20;
+		display: block;
+		margin: 24px auto ;
+	}
+	&__btn {
+		margin-top: 40px;
+		margin-left: 5px;
+	}
+}
+
+.swiper-pagination{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+
+	font-family: 'Cormorant';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: rgb(255, 255, 255);
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.0);
+}
+
+.swiper-pagination-bullet-active {
+	color: #fff;
+	background: rgba($color: #000000, $alpha: 0.0);
+	/* position: relative; */
+	color: $main-color;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&:after {
+		content: '';
+		/* position: absolute; */
+		height: 1px;
+		width: 16px;
+		background-color: $main-color;
+/* 		top: 50%;
+		transform: translateY(-50%); */
+		margin: 0 0px  0px 12px;
+
+	}
+}
+
+.swiper-pagination-bullet-active {
+	&:last-child {
+		&:after {
+			opacity: 0;
+		}
 	}
 }

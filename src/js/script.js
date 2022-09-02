@@ -60,3 +60,73 @@ menu.addEventListener('click', (e) => {
 		unlockScroll();
 	}
 });
+
+
+
+///swiper
+
+
+const swiper = new Swiper('.swiper', {
+	mousewheel: {
+	},
+
+	effect: 'fade',
+/* 	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
+	}, */
+	observer: true,
+	observeParents: true,
+	slidesPerView: 1,
+	spaceBetween: 20,
+	autoHeight: false,
+	speed: 1000,
+	loop: true,
+	preloadImages: false,
+	lazy: {
+		loadPrevNext: true,
+	},
+
+
+
+
+
+
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+/* 		renderBullet: function (index, className) {
+			
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+		}, */
+	},
+
+	on: {
+		init: function () {
+			const controll = document.querySelectorAll('.swiper-pagination .swiper-pagination-bullet');
+			controll.forEach((el, index) => {
+				let num;
+				if (index < 10) {
+					num = `0`;
+				}
+				el.innerHTML = `${num}${index + 1}`;
+			});
+		},
+/* 		breakpoint: function (swiper, info) {
+			!info.autoHeight ? document.querySelector('.body-main-slider__swiper').style.height = 'auto' : '';
+			swiper.updateSize();
+		}, */
+	}
+
+	
+	
+/*   breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    }
+  }, */
+});
+
+
+/////

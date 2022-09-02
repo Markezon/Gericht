@@ -1,17 +1,38 @@
 .title {
-    font-family: 'Roboto';
-    font-size: 26px;
-    line-height: 23px;
+    font-family: 'Cormorant';
+    font-style: normal;
     font-weight: 700;
-    text-transform: uppercase;
-    color: #2e2e2e;
-    text-align: center;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
 }
+
+.spoon {
+    margin-top: 8px;
+}
+
 .subtitle {
-    font-family: 'Roboto';
-    font-size: 21px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #2e2e2e;
-    text-align: center;
+    margin-top: 8px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.text {
+    margin-top: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
 }
