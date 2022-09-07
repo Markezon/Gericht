@@ -1,0 +1,21 @@
+.mainpage__body {
+    min-height: 5000px;
+    background: #0C0B08;
+    position: relative;
+    z-index: 1;
+    &::before {
+/*         z-index: -1; */
+        content: "";
+        top: 0;
+        height: 14908px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url("../../img/shitwave.svg") 0 0 / 100% no-repeat;
+        opacity: 0.2;
+        
+        
+    }
+}
+
+

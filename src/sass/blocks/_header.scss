@@ -2,6 +2,7 @@
 	position: relative;
     min-height: 1000px;
     background: #0C0B08;
+	padding-bottom: 77px;
 
     &__wrapper {
 		display: flex;
@@ -36,7 +37,7 @@
     }
 	&__scroll {
 		position: absolute;
-		bottom: 100px;
+		bottom: 200px;
 		right: 120px;
 	}
     
