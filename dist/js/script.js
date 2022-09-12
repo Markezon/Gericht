@@ -179,3 +179,20 @@ new AirDatepicker('#airdatepicker', {
 		
 });
 
+document.querySelector('.bar').addEventListener('click', () => {
+	document.querySelector('.menu').classList.add('bar');
+	document.querySelector('.menu').classList.remove('food');
+	document.querySelector('.menu').classList.remove('desserts');
+});
+
+document.querySelector('.food').addEventListener('click', () => {
+	document.querySelector('.menu').classList.add('food');
+	document.querySelector('.menu').classList.remove('desserts');
+	document.querySelector('.menu').classList.remove('bar');
+});
+
+document.querySelector('.desserts').addEventListener('click', () => {
+	document.querySelector('.menu').classList.add('desserts');
+	document.querySelector('.menu').classList.remove('food');
+	document.querySelector('.menu').classList.remove('bar');
+});
