@@ -11,6 +11,7 @@
     letter-spacing: 0.04em;
     color: #0C0B08;
     transition: all 0.6s;
+    z-index: 5;
     &:hover {
         transform: scale(105%);
         box-shadow: 0px 4px 4px rgba($color: $main-color, $alpha: 0.5);

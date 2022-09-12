@@ -130,3 +130,52 @@ const swiper = new Swiper('.swiper', {
 
 
 /////
+
+const defaultSelect = () => {
+	const element = document.querySelector('.default');
+  const choices = new Choices(element, {
+		searchEnabled: false,
+	});
+
+	let ariaLabel = element.getAttribute('aria-label');
+	element.closest('.choices').setAttribute('aria-label', ariaLabel);
+};
+
+defaultSelect();
+
+const multiDefault = () => {
+	const elements = document.querySelectorAll('.multi-default');
+	elements.forEach(el => {
+		const choices = new Choices(el, {
+			searchEnabled: false,
+		});
+	});
+	
+}
+
+multiDefault();
+
+
+
+///////////AirDatepicker
+
+new AirDatepicker('#airdatepicker', {
+	
+	selectedDates: [new Date()],
+	position: 'bottom center',
+	locale: {
+		days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+		daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+		daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+		months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+		monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		today: 'Today',
+		clear: 'Clear',
+		dateFormat: 'MM/dd/yyyy',
+		timeFormat: 'hh:mm aa',
+		firstDay: 0
+	}
+	
+		
+});
+

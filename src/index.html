@@ -10,6 +10,12 @@
 		rel="stylesheet"
 		href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
 	/>
+
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+	/>
+
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -18,179 +24,247 @@
 		<a href="#" class="sidepanel__text">#Bar</a>
 	</aside>
 
-	<section class="header">
-		<div class="overlay"></div>
-		<div class="header__wrapper">
-			<a href="#" class="header__logo">
-				Gerícht
-			</a>
-							
-			<nav class="nav header__nav">
-				<ul class="nav__list">
-					<li class="nav__item"><a href="#men" class="nav__link">Home</a></li>
-					<li class="nav__item"><a href="#rec" class="nav__link">Pages</a></li>
-					<li class="nav__item"><a href="#che" class="nav__link">Contact Us</a></li>
-					<li class="nav__item"><a href="#con" class="nav__link">Blog</a></li>
-					<li class="nav__item"><a href="#con" class="nav__link">Landing</a></li>
-					<li class="nav__item nav__item2"><a href="#con" class="nav__link nav__link2">Log In / Registration</a></li>
-					<img src="icons/header_devider.svg" alt="devider" class="header__devider">
-					<li class="nav__item"><a href="#con" class="nav__link nav__link2">Book Table</a></li>
-				</ul>
-			</nav>
-
-			<button class="burger" aria-label="Открыть меню">
-				<span></span>
-			</button>				
-			
-		</div>
-
-		<div class="swiper">
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper">
-			  <!-- Slides -->
-				<div class="swiper-slide">
-					<div class="slide__block1">
-						<div class="slide__title title">
-							Chase The New Flavour
-						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon">
-						<div class="slide__subtitile subtitle">
-							The Key To Fine Dining
-						</div>
-						<div class="slide__text text">
-							Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
-						</div>
-						<button class="slide__btn btn">
-							Explore Menu
-						</button>
-					</div>
-					<div class="slide__block2">
-						<div class="slide__square1"></div>
-						<div class="slide__square2"></div>
-						<img src="img/header_slider/joseph-gonzalez-fdlZBWIP0aM-unsplash 1.png" alt="img1" class="slide__img">
-					</div>
-				</div>
-
-				<div class="swiper-slide">
-					<div class="slide__block1">
-						<div class="slide__title title">
-							Chase The New Flavour
-						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon">
-						<div class="slide__subtitile subtitle">
-							The Key To Fine Dining
-						</div>
-						<div class="slide__text text">
-							Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
-						</div>
-						<button class="slide__btn btn">
-							Explore Menu
-						</button>
-					</div>
-					<div class="slide__block2">
-						<div class="slide__square1"></div>
-						<div class="slide__square2"></div>
-						<img src="img/header_slider/christian-coquet-p1sdBSnS3Qc-unsplash.png" alt="img1" class="slide__img">
-					</div>
-				</div>
-
-				<div class="swiper-slide">
-					<div class="slide__block1">
-						<div class="slide__title title">
-							Chase The New Flavour
-						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon">
-						<div class="slide__subtitile subtitle">
-							The Key To Fine Dining
-						</div>
-						<div class="slide__text text">
-							Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
-						</div>
-						<button class="slide__btn btn">
-							Explore Menu
-						</button>
-					</div>
-					<div class="slide__block2">
-						<div class="slide__square1"></div>
-						<div class="slide__square2"></div>
-						<img src="img/header_slider/khloe-arledge-ND3edEmzcdQ-unsplash.png" alt="img1" class="slide__img">
-					</div>
-				</div>
-
-				<div class="swiper-slide">
-					<div class="slide__block1">
-						<div class="slide__title title">
-							Chase The New Flavour
-						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon">
-						<div class="slide__subtitile subtitle">
-							The Key To Fine Dining
-						</div>
-						<div class="slide__text text">
-							Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
-						</div>
-						<button class="slide__btn btn">
-							Explore Menu
-						</button>
-					</div>
-					<div class="slide__block2">
-						<div class="slide__square1"></div>
-						<div class="slide__square2"></div>
-						<img src="img/header_slider/joseph-gonzalez-fdlZBWIP0aM-unsplash 1.png" alt="img1" class="slide__img">
-					</div>
-				</div>
-
+	<main class="mainpage">
+		<section class="header">
+			<div class="overlay"></div>
+			<div class="header__wrapper">
+				<a href="#" class="header__logo">
+					Gerícht
+				</a>
+								
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="#men" class="nav__link">Home</a></li>
+						<li class="nav__item"><a href="#rec" class="nav__link">Pages</a></li>
+						<li class="nav__item"><a href="#che" class="nav__link">Contact Us</a></li>
+						<li class="nav__item"><a href="#con" class="nav__link">Blog</a></li>
+						<li class="nav__item"><a href="#con" class="nav__link">Landing</a></li>
+						<li class="nav__item nav__item2"><a href="#con" class="nav__link nav__link2">Log In / Registration</a></li>
+						<img src="icons/header_devider.svg" alt="devider" class="header__devider">
+						<li class="nav__item"><a href="#con" class="nav__link nav__link2">Book Table</a></li>
+					</ul>
+				</nav>
+	
+				<button class="burger" aria-label="Открыть меню">
+					<span></span>
+				</button>				
+				
 			</div>
-			<div class="swiper-pagination"></div>
-
-		</div>
-		
-		<img src="icons/Scroll.svg" alt="scroll" class="header__scroll">		
-	</section>
-
-	<main class="mainpage__body">
-		<section class="about">
-			<div class="container">
-				<div class="about__wrapper">
-					<div class="about__item item1">						
-						<div class="about__subtitile subtitle">
-							About Us
+	
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				  <!-- Slides -->
+					<div class="swiper-slide">
+						<div class="slide__block1">
+							<div class="slide__title title">
+								Chase The New Flavour
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon">
+							<div class="slide__subtitile subtitle">
+								The Key To Fine Dining
+							</div>
+							<div class="slide__text text">
+								Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
+							</div>
+							<button class="slide__btn btn">
+								Explore Menu
+							</button>
 						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon">
-						<div class="about__text text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+						<div class="slide__block2">
+							<div class="slide__square1"></div>
+							<div class="slide__square2"></div>
+							<img src="img/header_slider/joseph-gonzalez-fdlZBWIP0aM-unsplash 1.png" alt="img1" class="slide__img">
 						</div>
-						<button class="about__btn btn">
-							Know More
-						</button>
 					</div>
-
-					<img src="img/about/knife.png" alt="knife" class="about__knife">
-
-					<div class="about__item">						
-						<div class="about__subtitile subtitle">
-							About Us
+	
+					<div class="swiper-slide">
+						<div class="slide__block1">
+							<div class="slide__title title">
+								Chase The New Flavour
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon">
+							<div class="slide__subtitile subtitle">
+								The Key To Fine Dining
+							</div>
+							<div class="slide__text text">
+								Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
+							</div>
+							<button class="slide__btn btn">
+								Explore Menu
+							</button>
 						</div>
-						<img src="icons/spoon.svg" alt="spoon" class="spoon spoon2">
-						<div class="about__text text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+						<div class="slide__block2">
+							<div class="slide__square1"></div>
+							<div class="slide__square2"></div>
+							<img src="img/header_slider/christian-coquet-p1sdBSnS3Qc-unsplash.png" alt="img1" class="slide__img">
 						</div>
-						<button class="about__btn btn">
-							Know More
-						</button>
 					</div>
+	
+					<div class="swiper-slide">
+						<div class="slide__block1">
+							<div class="slide__title title">
+								Chase The New Flavour
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon">
+							<div class="slide__subtitile subtitle">
+								The Key To Fine Dining
+							</div>
+							<div class="slide__text text">
+								Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
+							</div>
+							<button class="slide__btn btn">
+								Explore Menu
+							</button>
+						</div>
+						<div class="slide__block2">
+							<div class="slide__square1"></div>
+							<div class="slide__square2"></div>
+							<img src="img/header_slider/khloe-arledge-ND3edEmzcdQ-unsplash.png" alt="img1" class="slide__img">
+						</div>
+					</div>
+	
+					<div class="swiper-slide">
+						<div class="slide__block1">
+							<div class="slide__title title">
+								Chase The New Flavour
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon">
+							<div class="slide__subtitile subtitle">
+								The Key To Fine Dining
+							</div>
+							<div class="slide__text text">
+								Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus 
+							</div>
+							<button class="slide__btn btn">
+								Explore Menu
+							</button>
+						</div>
+						<div class="slide__block2">
+							<div class="slide__square1"></div>
+							<div class="slide__square2"></div>
+							<img src="img/header_slider/joseph-gonzalez-fdlZBWIP0aM-unsplash 1.png" alt="img1" class="slide__img">
+						</div>
+					</div>
+	
 				</div>
+				<div class="swiper-pagination"></div>
+	
 			</div>
 			
+			<img src="icons/Scroll.svg" alt="scroll" class="header__scroll">		
 		</section>
 
 
+		<div class="mainpage__body">
+			<section class="about">
+				<div class="container">
+					<div class="about__wrapper">
+						<div class="about__item item1">						
+							<div class="about__subtitile subtitle">
+								About Us
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon">
+							<div class="about__text text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+							</div>
+							<button class="about__btn btn">
+								Know More
+							</button>
+						</div>
+	
+						<img src="img/about/knife.png" alt="knife" class="about__knife">
+	
+						<div class="about__item">						
+							<div class="about__subtitile subtitle">
+								About Us
+							</div>
+							<img src="icons/spoon.svg" alt="spoon" class="spoon spoon2">
+							<div class="about__text text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+							</div>
+							<button class="about__btn btn">
+								Know More
+							</button>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+	
+			<section class="book">
+				<div class="container">
+					<div class="book__wrapper">
+						<div class="book__title title">
+							Reservations
+						</div>
+						<img src="icons/spoon.svg" alt="spoon" class="spoon">
+						<div class="book__subtitile subtitle">
+							Book A Table
+						</div>
+						<form data-dev data-popup-massage="#formMessage" method="POST" action="#" class="book__form form-book">
+							<div class="form-book__lines">
+								<div class="form-book__line">
+									<select name="form[]" class="default">
+										<option value="1" selected>1 Person</option>
+										<option value="2">2 Person</option>
+										<option value="3">3 Person</option>
+										<option value="4">4 Person</option>
+									</select>
+								</div>
+								<div class="form-book__line">
+									<div class="form-book__input _icon-select-arrow">
+										<input type="text" id="airdatepicker" class="input-calendar">
+									</div>
+								</div>
+								<div class="form-book__line">
+									<select data-scroll name="form[]" class="multi-default">
+										<option value="1" selected>11:00 AM</option>
+										<option value="2">12:00 AM</option>
+										<option value="3">1:00 PM</option>
+										<option value="4">2:00 PM</option>
+										<option value="5">3:00 PM</option>
+										<option value="6">4:00 PM</option>
+										<option value="7">5:00 PM</option>
+										<option value="9">6:00 PM</option>
+										<option value="10">7:00 PM</option>
+										<option value="11">8:00 PM</option>
+										<option value="12">9:00 PM</option>
+										<option value="13">10:00 PM</option>
+										<option value="14">11:00 PM</option>
+									</select>
+								</div>
+							</div>
+							<button type="submit" class="book__button btn">Book Now</button>
+						</form>
+						
+					</div>
+					
 
+	
+				</div>
+				<img src="icons/logo_bite.svg" alt="bite" class="book__bite">
+
+			</section>
+			
+			
+			
+	
+	
+	
+	
+	
+	
+		</div>
 
 
 
 
 	</main>
+
+
+
+
 
 
 
@@ -274,6 +348,9 @@
 	<script src="js/just-validate3.3.3.min.js"></script>
 	<script src="js/inputmask.min.js"></script>
 	<script src="js/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+	<script src="js/air-datepicker.js"></script>
 	<script src="js/script.js"></script>
+
 </body>
 </html>
