@@ -1,0 +1,90 @@
+.chef {
+    min-height: 1045px;
+    background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 128px 0;
+    }
+    &__block1 {
+        position: relative;
+        width: 634px;
+        height: 789px;
+        padding: 24px;
+        z-index: 1;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 435px;
+            height: 435px;
+            background: #DCCA87;
+            bottom: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            width: 435px;
+            height: 789px;
+            background: #DCCA87;
+            top: 0px;
+            right: 0px;
+            z-index: -1;
+        }
+        &_wrapper {
+            display: block;
+            margin: 0 auto;
+            width: 586px;
+            height: 741px;
+        }
+
+    }
+    &__block2 {
+        width: 570px;
+        height: 789px;
+        &_img {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+    &__title {
+        margin-top: 87px;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 64px;
+        letter-spacing: 0.03em;
+    }
+    &__text {
+        margin-top: 12px;
+        font-style: italic;
+    }
+    &__chef {
+        margin-top: 64px;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #DCCA87;
+        &_subtitle {
+            margin-top: 8px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+        &_signature {
+            margin-top: 64px;
+            
+        }
+        
+    }
+}

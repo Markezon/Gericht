@@ -67,14 +67,12 @@ menu.addEventListener('click', (e) => {
 
 
 const swiper = new Swiper('.swiper', {
-	mousewheel: {
-	},
 
 	effect: 'fade',
-/* 	autoplay: {
-		delay: 3000,
+	autoplay: {
+		delay: 2000,
 		disableOnInteraction: false,
-	}, */
+	},
 	observer: true,
 	observeParents: true,
 	slidesPerView: 1,
