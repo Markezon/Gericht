@@ -1,0 +1,66 @@
+.testimony {
+    min-height: 686px;
+    &__wrapper1 {
+        text-align: center;
+    }
+    &__wrapper2 {
+        margin-top: 64px;
+        display: flex;
+        width: 100%;
+        height: 548px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 634px;
+        height: 210px;
+        display: flex;
+        justify-content: space-between;
+        &_img-block {
+            margin-right: 32px;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                height: 40px;
+                width: 47px;
+                background: url("../../img/chefs/Pg.svg") 0 0 / 100% no-repeat;
+                z-index: 55;
+                bottom: 0;
+                right: -17px;
+            }
+        }
+        &_text {
+            margin-top: 18px;
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+        &_name {
+            margin-top: 16px;
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: $main-color;            
+        }
+        &_subtitle {
+            margin-top: 4px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #F5EFDB;            
+        }
+    }
+}
