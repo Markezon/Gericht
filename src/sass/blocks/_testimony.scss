@@ -1,7 +1,18 @@
 .testimony {
     min-height: 686px;
+    padding: 150px;
     &__wrapper1 {
+        position: relative;
         text-align: center;
+        &:before {
+            content: '';
+            position: absolute;
+            height: 146px;
+            width: 146px;
+            top: -210px;
+            right: 0;
+            background: url("../../icons/logo_bite.svg") 0 0 / 100% no-repeat;
+        }
     }
     &__wrapper2 {
         margin-top: 64px;
