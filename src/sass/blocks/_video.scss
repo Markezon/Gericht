@@ -1,0 +1,28 @@
+.video {
+    min-height: 763px;
+    &__wrapper {
+        width: 100%;
+    }
+}
+
+.video-js .vjs-big-play-button {
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid $main-color;
+}
+
+.vjs-icon-play:before, .video-js .vjs-play-control .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+    content: "\f101";
+    transform: scale(350%);
+    top: 108%;
+/*     width: 20px;
+    height: 20px;
+    background: rgba($color: #000000, $alpha: 0.1) url("../../icons/Play.svg") 0 0 / 100% no-repeat; */
+}
+
+.video-1-dimensions {
+    width: 100%;
+}

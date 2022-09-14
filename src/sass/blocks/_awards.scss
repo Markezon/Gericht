@@ -1,0 +1,69 @@
+.awards {
+    height: 947px;
+    padding-top: 128px;
+    background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__laurels {
+        padding-top: 118px;
+        width: 640px;
+        height: 460px;
+    }
+    &__wrapper2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item2 {
+        margin-top: 64px;
+        width: 301px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_img {
+            width: 79px;
+            height: 79px;
+        }
+        &_text {
+            width: 190px;
+            height: 94px;
+        }
+        &_title {
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: $main-color;
+        }
+        &_subtitle {
+            margin-top: 8px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+    }
+    &__item-img {
+        width: 555px;
+        height: 691px;
+        position: relative;        
+    }
+    &__g-img {
+        position: absolute;
+        bottom: 0;
+    }
+    &__img {
+        float: right;
+    }
+}

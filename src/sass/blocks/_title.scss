@@ -18,7 +18,7 @@
     transform: rotate(180deg);
 }
 
-.subtitle {
+.subtitle1 {
     margin-top: 8px;
     font-family: 'Cormorant';
     font-style: normal;
@@ -27,7 +27,20 @@
     line-height: 130%;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: #DCCA87;
+    color: $main-color;
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: $main-color;
 }
 
 .text {

@@ -194,3 +194,5 @@ document.querySelector('.desserts').addEventListener('click', () => {
 	document.querySelector('.menu').classList.remove('food');
 	document.querySelector('.menu').classList.remove('bar');
 });
+
+videojs(document.querySelector('.video-js'));
