@@ -1,0 +1,79 @@
+.blogs {
+    min-height: 1388x;
+    padding: 152px 0;
+    position: relative;
+    &__bite {
+        position: absolute;
+        right: 92px;
+        bottom: 123px;
+    }
+    &__header{
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 64px;
+        width: 100%;
+        min-height: 774px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 412px;
+        height: 774px;
+        &_img {
+            width: 412px;
+            height: 430px;
+        }
+        &_header {
+            margin-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #FAFAFA;
+        }
+        &_title {
+            margin-top: 32px;
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-decoration-line: underline;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: $main-color;
+        }
+        &_text {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;            
+        }
+        &_link {
+            font-family: 'Cormorant Upright';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: $main-color;
+        }
+    }
+    &__btn {        
+        display: block;
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+}
