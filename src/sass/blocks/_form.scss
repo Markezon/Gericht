@@ -1,7 +1,8 @@
-.form2 {
+.form {
     width: 815px;
     display: grid;
     margin: 0 auto;
+    margin-top: 64px;
     grid-template-columns: repeat(3, 270px);
     grid-template-rows: 47px 75px 60px;
     row-gap: 6px;
@@ -34,14 +35,13 @@
             height: 100%;
             resize: none;
             padding: 0px 19px;
-            background-color: #ffffff;
-            border: 1px solid rgba(0,0,0,0.2);
-            border-radius: 45px;
+            border: 1px solid #F5EFDB;
             font-family: 'Roboto';
             font-size: 13px;
             line-height: 24px;
             font-weight: 300;
             color: #101010;
+            background-color: #0C0C0C;
             &:focus {    
                 transition: all 0.5s;
                 box-shadow: 0 0 10px $main-color;
@@ -75,7 +75,8 @@
         display: none;
     }
     &__btn {
-        grid-column: 2 / 3;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
         display: block;
         margin: 0 auto;
         width: 180px;
@@ -86,11 +87,11 @@
         }
     }
     &__policy {
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
         position: relative;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin-left: 70px;
+        margin-top: 10px;
         &-modal {
             padding-top: 10px;
             grid-row: 4 / 5;
@@ -162,3 +163,4 @@
         }
     }
 }
+

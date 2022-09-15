@@ -1,0 +1,91 @@
+.footer {
+    min-height: 500px;
+    background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
+    padding-top: 100px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    &__item {
+        text-align: center;
+        width: 310px;
+        height: 225px;
+        &_title {
+            padding-top: 25px;
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: #F5EFDB;
+        }
+        &_text {
+            margin-top: 24px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+        &_text2 {
+            margin-top: 8px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+    }
+    &__item2 {
+        text-align: center;
+        width: 440px;
+        height: 250px;
+        &_header {
+            font-family: 'Cormorant Upright';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+        &_subtitle {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+        }
+        &_socials {
+            margin: 0 auto;
+            margin-top: 16px;
+            width: 104px;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;            
+        }
+    }
+    &__2022 {
+        margin-top: 80px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #AAAAAA;
+    }
+}
