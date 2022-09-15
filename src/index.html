@@ -27,7 +27,7 @@
 	</aside>
 
 	<main class="mainpage">
-		<section class="header">
+		<section id="up" class="header">
 			<div class="overlay"></div>
 			<div class="header__wrapper">
 				<a href="#" class="header__logo">
@@ -170,8 +170,10 @@
 								Know More
 							</button>
 						</div>
-	
-						<img src="img/about/knife.png" alt="knife" class="about__knife">
+						
+						<div class="about__knife">
+							<img src="img/about/kn.svg" alt="knife" class="about__knife-img">
+						</div>
 	
 						<div class="about__item">						
 							<div class="about__subtitile subtitle">
@@ -475,7 +477,8 @@
 
 			<section class="video">
 				<div class="video__wrapper">
-					<video controls muted loop class="video-js" id="video-1" src="video/video.mp4"></video>
+					<video controls muted loop id="video-1" src="img/video/video.mp4"></video>
+<!-- 					<video controls autoplay muted loop class="video-js" id="video-1" src="img/video/video.mp4"></video> -->
 				</div>				
 			</section>
 			

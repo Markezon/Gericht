@@ -37,9 +37,16 @@
         text-align: right;
     }
     &__knife {
+        width: 84px;
+        height: 703px;
         z-index: 5;
         margin-top: 120px;
         margin-bottom: 136px;
+    }
+    &__knife-img {
+        object-fit: cover;
+        width: 84px;
+        height: 703px;
     }
     &__btn {
         margin-top: 32px;
