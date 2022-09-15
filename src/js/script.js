@@ -93,10 +93,6 @@ const swiper = new Swiper('.swiper', {
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
-/* 		renderBullet: function (index, className) {
-			
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-		}, */
 	},
 
 	on: {
@@ -124,6 +120,37 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 30,
     }
   }, */
+});
+
+
+const swiper1 = new Swiper('.swiper1', {
+	// Optional parameters 
+	loop: true,
+	slidesPerView: 2.3,
+	spaceBetween: 32,
+	slideClass: 'swiper-slide1',
+	wrapperClass: 'swiper-wrapper1',
+	centeredSlides: true,
+	slideToClickedSlide: true,
+
+	mousewheel: {
+		invert: true,
+	  },
+
+	scrollbar: {
+		el: '.swiper-scrollbar',
+		draggable: true,
+	  },
+	
+  
+	// If we need pagination
+	pagination: {
+	  el: '.swiper-pagination1',
+	  bulletClass:'swiper-pagination1-bullet',
+	  bulletActiveClass:'swiper-pagination1-bullet-active',
+	  clickable: true,    
+	},
+  
 });
 
 
