@@ -53,7 +53,9 @@
 			width: 40%;
 		}
 	}
-
+	.testimony {
+		padding: 30px 20px;
+	}
 }
 
 @media (max-width: 1350px) {
@@ -91,6 +93,13 @@
 			width: 50%;
 			padding: 0 10px;
 			
+		}
+	}
+	.testimony {
+		&__wrapper2 {
+			margin-top: 30px;
+			justify-content: space-around;
+			row-gap: 20px;
 		}
 	}
 
@@ -150,6 +159,9 @@
 }
 
 @media (max-width: 992px) {
+	.subtitle {
+		font-size: 50px;
+	}
 	.book {
 		&__wrapper {
 			height: 100%;
@@ -192,13 +204,23 @@
 			height: 520px;
 		}
 	}
+	.testimony {
+		&__item {
+			width: 100%;
+			&_img-block {
+				margin-right: 25px;
+			}
+			&_text {
+				margin-top: 0px;
+			}
+		}
+
+	}
 
 }
 
 @media (max-width: 576px) {
-	.subtitle {
-		font-size: 50px;
-	}
+
 	.slide {
 		&__block1 {
 			height: 550px;
@@ -242,6 +264,37 @@
 		&__chef_signature {
 			margin-top: 50px;
 		}
+	}
+	.testimony {
+		padding: 30px 10px;
+		&__item {
+			
+			&_img-block {
+				margin-right: 10px;
+				width: 35%;
+				&:before {
+					display: none;
+				}
+			}
+			&_img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+			&_text {
+				font-size: 13px;
+			}
+			&_name {
+				font-size: 20px;
+			}
+			&_subtitle {
+				font-size: 13px;
+			}
+			&_block {
+				width: 65%;
+			}
+		}
+
 	}
 }
 
