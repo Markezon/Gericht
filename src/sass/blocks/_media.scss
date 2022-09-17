@@ -64,6 +64,11 @@
 		}
 
 	}
+	.footer {
+		&__wrapper {
+			padding: 0 10px;
+		}
+	}
 }
 
 @media (max-width: 1350px) {
@@ -192,7 +197,13 @@
 	.subscribe {
 		padding-top: 30px;
 	}
+	.footer {
+		padding-top: 30px;
+		&__wrapper {
+			justify-content: space-around;
 
+		}
+	}
 }
 
 @media (max-width: 992px) {

@@ -2,6 +2,7 @@
     min-height: 500px;
     background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
     padding-top: 100px;
+    background-size: cover;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -75,6 +76,18 @@
             height: 24px;
             display: flex;
             justify-content: space-between;            
+        }
+        &_social {
+            &:hover {
+                svg {
+                    transition: all 0.6s;
+                    transform: scale(180%);
+                }
+                svg path {
+                    transition: all 0.6s;
+                    fill: $main-color;
+                }
+            }
         }
     }
     &__2022 {
