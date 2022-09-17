@@ -69,10 +69,10 @@ menu.addEventListener('click', (e) => {
 const swiper = new Swiper('.swiper', {
 
 	effect: 'fade',
-/* 	autoplay: {
+	autoplay: {
 		delay: 2000,
 		disableOnInteraction: false,
-	}, */
+	},
 	observer: true,
 	observeParents: true,
 	slidesPerView: 1,
@@ -126,8 +126,8 @@ const swiper = new Swiper('.swiper', {
 const swiper1 = new Swiper('.swiper1', {
 	// Optional parameters 
 	loop: true,
-	slidesPerView: 2.3,
-	spaceBetween: 32,
+	slidesPerView: 1.2,
+	spaceBetween: 10,
 	slideClass: 'swiper-slide1',
 	wrapperClass: 'swiper-wrapper1',
 	centeredSlides: true,
@@ -150,6 +150,13 @@ const swiper1 = new Swiper('.swiper1', {
 	  bulletActiveClass:'swiper-pagination1-bullet-active',
 	  clickable: true,    
 	},
+
+	breakpoints: {
+		768: {
+		slidesPerView: 2.3,
+		spaceBetween: 32,
+		}
+  	},
   
 });
 
@@ -222,7 +229,7 @@ document.querySelector('.desserts').addEventListener('click', () => {
 	document.querySelector('.menu').classList.remove('bar');
 });
 
-videojs(document.querySelector('.video-js'));
+/* videojs(document.querySelector('.video-js')); */
 
 
 //////////////////////////////////

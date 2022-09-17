@@ -1,9 +1,8 @@
 .gallery {
-    height: 650px;
+    min-height: 650px;
     &__wrapper {
         width: 100%;
         display: flex;
-/*         flex-wrap: wrap; */
         justify-content: space-between;
         padding: 0 10px;
     }
