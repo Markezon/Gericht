@@ -36,12 +36,15 @@
 
 }
 
-/* @media (max-width: 1350px) {
-	.container {
-		width: 100%;
+@media (max-width: 1350px) {
+	.book {
+		&__wrapper {
+			width: 100%;
+			padding: 20px;
+		}
 	}
 
-} */
+}
 
 @media (max-width: 1200px) {
 	.container {
@@ -92,6 +95,20 @@
 }
 
 @media (max-width: 992px) {
+	.book {
+		&__wrapper {
+			height: 100%;
+		}
+
+	}
+	.form-book {
+		&__lines {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-template-rows: repeat(3);
+			gap: 32px;
+		}
+	}
 
 }
 
@@ -101,9 +118,13 @@
 			height: 520px;
 		}
 	}
+
 }
 
 @media (max-width: 576px) {
+	.subtitle {
+		font-size: 50px;
+	}
 	.slide {
 		&__block1 {
 			height: 550px;
