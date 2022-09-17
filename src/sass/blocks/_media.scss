@@ -104,6 +104,22 @@
 	}
 
 }
+@media (max-width: 1220px) {
+	.awards {
+		min-height: 730px;
+		padding-top: 0;
+		&__laurels {
+			padding-top: 30px;
+			text-align: center;
+		}
+		&__item-img {
+			display: none;
+		}
+		&__wrapper {
+			justify-content: space-around;
+		}
+	}
+}
 
 @media (max-width: 1200px) {
 	.container {
@@ -195,6 +211,9 @@
 			margin-top: 10px;
 		}
 	}
+	.awards {
+		min-height: 500px;
+	}
 
 }
 
@@ -215,6 +234,12 @@
 			}
 		}
 
+	}
+	.awards {
+		min-height: 800px;
+		&__wrapper2 {
+			justify-content: space-around;
+		}
 	}
 
 }
@@ -295,6 +320,9 @@
 			}
 		}
 
+	}
+	.awards {
+		min-height: 800px;
 	}
 }
 

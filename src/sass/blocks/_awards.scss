@@ -1,11 +1,12 @@
 .awards {
-    height: 947px;
+    min-height: 830px;
     padding-top: 128px;
     background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0 10px;
     }
     &__laurels {
         padding-top: 118px;
