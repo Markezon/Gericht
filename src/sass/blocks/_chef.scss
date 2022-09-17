@@ -1,6 +1,7 @@
 .chef {
     min-height: 1045px;
     background: url("../../img/chefs/chefs_bg.png") 0 0 / 100% no-repeat;
+    background-size: cover;
     &__wrapper {
         display: flex;
         justify-content: space-between;
