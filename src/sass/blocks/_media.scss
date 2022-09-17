@@ -91,6 +91,11 @@
 			display: none;
 		}
 	}
+	.menu {
+		&__title {
+			font-size: 55px;
+		}
+	}
 
 }
 
@@ -145,6 +150,11 @@
 		}
 		&__btn {
 			margin-top: 60px;
+		}
+	}
+	.menu {
+		&__title {
+			font-size: 45px;
 		}
 	}
 }

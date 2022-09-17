@@ -2,6 +2,7 @@
     height: 900px;
     width: 100%;
     background: #0C0C0C url("../../img/menu/dessert.png") 100% no-repeat;
+/*     background-size: cover; */
     &__title {
         font-family: 'Cormorant';
         font-style: normal;
@@ -38,15 +39,15 @@
 }
 
 .menu.food {
-    background: #0C0C0C url("../../img/menu/food.png") 100% no-repeat;
+    background: #0C0C0C url("../../img/menu/food.png") 50% no-repeat;
 }
 
 .menu.bar {
-    background: #0C0C0C url("../../img/menu/bar.png") 100% no-repeat;
+    background: #0C0C0C url("../../img/menu/bar.png") 50% no-repeat;
 }
 
 .menu.desserts {
-    background: #0C0C0C url("../../img/menu/dessert.png") 100% no-repeat;
+    background: #0C0C0C url("../../img/menu/dessert.png") 50% no-repeat;
 }
     
 
