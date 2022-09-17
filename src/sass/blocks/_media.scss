@@ -56,6 +56,14 @@
 	.testimony {
 		padding: 30px 20px;
 	}
+	.blogs {
+		padding: 30px 0;
+		&__wrapper {
+			justify-content: space-around;
+			row-gap: 15px;
+		}
+
+	}
 }
 
 @media (max-width: 1350px) {
@@ -241,6 +249,11 @@
 			justify-content: space-around;
 		}
 	}
+	.blogs {
+		&__bite {
+			display: none;
+		}
+	}
 
 }
 
@@ -323,6 +336,17 @@
 	}
 	.awards {
 		min-height: 800px;
+	}
+	.blogs {
+		&__item {
+			&_img {
+				width: 100%;
+				object-fit: cover;
+			}
+			&_text {
+				margin: 10px 0px;
+			}
+		}
 	}
 }
 
