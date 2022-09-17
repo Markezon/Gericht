@@ -1,6 +1,9 @@
 .video {
-    min-height: 763px;
+    min-height: 1080px;
     &__wrapper {
+        width: 100%;
+    }
+    &__video {
         width: 100%;
     }
 }
