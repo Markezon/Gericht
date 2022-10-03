@@ -66,7 +66,7 @@
 .nav__item {
 	position: relative;
 
-	.nav__link {
+	.nav__link1 {
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
@@ -81,7 +81,7 @@
 			transition: all 0.5s;
 		}
 	}
-    .nav__link.nav__link2 {
+    .nav__link1.nav__link2 {
         font-weight: 600;
         letter-spacing: 0.05em;
         text-transform: capitalize;
@@ -279,12 +279,12 @@
 		width: 100%;
 		padding: 0;
 		position: static;
-		.nav__link {
+/* 		.nav__link {
 			color: #fff;
-		}
+		} */
 	}
 
-	.nav__link,
+	.nav__link1,
 	.dropdown-submenu__list-item a,
 	.dropdown-list__link {
 		padding: 20px 30px;
@@ -302,7 +302,7 @@
         color: #FFFFFF;
 	}
 
-	.nav__link::after {
+	.nav__link1::after {
 		transform: rotate(-90deg);
 	}
 

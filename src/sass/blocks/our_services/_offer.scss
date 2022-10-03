@@ -1,0 +1,36 @@
+.offer {
+    min-height: 679px;
+    background: url("../../../img/Our_Services/Our_services_bg.png") 0 0 / 100% no-repeat;
+    padding-top: 254px;
+    text-align: center;
+    &__title {
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: $main-color;
+    }
+    &__wrapper {
+        margin-top: 24px;
+        width: 220px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+}
