@@ -1,0 +1,25 @@
+.bar-about {
+    position: relative;
+    min-height: 1045px;
+    background: url("../../../img/bar/BG.png") 0 0 / 100% no-repeat;
+    padding-top: 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item1 {
+        padding-top: 264px;
+        width: 523px;
+    }
+    &__item2 {
+        width: 634px;
+        padding-top: 128px;
+    }
+    &__title {
+        margin-top: 40px;
+    }
+    &__btn {
+        margin-top: 25px;
+    }
+}

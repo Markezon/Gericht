@@ -1,0 +1,11 @@
+.bar-poison {
+    height: 1045px;
+    text-align: center;
+    padding-top: 150px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+}

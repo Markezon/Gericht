@@ -1,0 +1,29 @@
+.bar-happy {
+    min-height: 900px;
+    background: url("../../../img/bar/happy/happy_bg.png") 0 0 / 100% no-repeat;
+    padding-top: 330px;
+    text-align: center;
+    &__title {
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 128px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: $main-color;
+    }
+    &__subtitle {
+        margin-top: 32px;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+}
