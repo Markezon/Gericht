@@ -1,0 +1,11 @@
+.about-us-happy {
+    min-height: 474px;
+    text-align: center;
+    padding: 150px 0 0 96px;
+    position: relative;
+    &__bite {
+        position: absolute;
+        right: 100px;
+        top: 150px;
+    }
+}

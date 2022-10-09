@@ -1,0 +1,81 @@
+.our-history {
+    height: 1044px;
+    padding-top: 152px;
+    &__header {
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+    &__item1 {
+        width: 523px;
+        height: 690px;
+        &_text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+        &_img {
+            margin-top: 40px;
+        }
+    }
+    &__item2 {
+        width: 634px;
+        height: 690px;
+        &_header {
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: $main-color;
+            margin-top: 40px;
+        }
+        &_wrapper {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &_block {
+            &-title {
+                font-family: 'Cormorant';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 45px;
+                line-height: 130%;
+                text-align: center;
+                letter-spacing: 0.04em;
+                text-transform: capitalize;
+                font-feature-settings: 'tnum' on, 'lnum' on;
+                color: $main-color;
+            }
+            &-subtitle {
+                font-family: 'Cormorant';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.04em;
+                text-transform: capitalize;
+                font-feature-settings: 'tnum' on, 'lnum' on;
+                color: #FFFFFF;
+            }
+        }
+        &_devider {
+            height: 100px;
+            margin-top: 33.5px;
+        } 
+
+    }
+}
