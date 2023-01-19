@@ -6,22 +6,22 @@
 @import 'base/mixins';
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 .container {
-    width: 1300px;
-    margin: 0 auto;
+	width: 1300px;
+	margin: 0 auto;
 }
 
 p {
-    margin: 0ch
+	margin: 0ch
 }
 
 a {
-    text-decoration: none
+	text-decoration: none
 }
 
 @import 'blocks/header';
@@ -60,6 +60,8 @@ a {
 @import 'blocks/about-us/our-history';
 
 @import 'blocks/contuct-us/map';
+
+@import 'blocks/our_chefs/chefs';
 
 
 @import 'blocks/modal';
