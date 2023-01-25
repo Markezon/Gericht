@@ -12,7 +12,8 @@
     }
     &__item {
         width: 412px;
-        height: 646px;  
+        height: 646px;
+
         &_title-kevin {
             margin-top: 32px;
             font-family: 'Cormorant';
@@ -47,5 +48,82 @@
             letter-spacing: 0.04em;
             color: #FFFFFF;
         }
+        &_img-wrapper {
+            background-color: black;
+            position: relative;
+        }
+        &_link-wrapper {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            transform: translateY(-100%);
+            padding: 420px 0 50px 0;
+            background-color: rgba($color: #000000, $alpha: 0.0);
+            svg {
+/*                 visibility: hidden; */
+                scale: 0;
+            }
+        }
+
+          
+        a:active {
+            color: $main-color;
+        }
+          
+        a:visited {
+            color: $main-color;
+        }
+
+        &_link-wrapper2 {
+            text-align: center;
+            margin-top: 16px;
+        }
+        &_link-wrapper2_title {
+            color: $main-color;
+            text-decoration: none;
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+        }
+        a:hover {
+            text-decoration: none;
+            transition: all 0.6s;
+            transform: scale(120%);
+            font-size: 26px;
+        }
+
+
+
     }
 }
+
+/* .chefs__link-wrapper:hover {
+    opacity: 0.5;
+    + .chefs__item_link-wrapper {
+        visibility: visible;
+        }
+} */
+
+.chefs__item_link-wrapper {
+    &:hover {
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        transition: all 0.5s;
+        svg {
+            scale: 100%;
+            transition: all 0.8s;
+        }
+        .chefs__item_link-wrapper2_title {
+            font-size: 16px;
+            transition: all 1s;
+            &:hover {
+                text-decoration: underline;
+                font-size: 26px;
+                transition: all 1s;
+            }
+        }
+    }
+}
+

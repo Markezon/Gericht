@@ -1,0 +1,68 @@
+.Patrick_Choi {
+    padding-top: 152px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__text {
+        width: 632px;
+        height: 649px;
+        &_description {
+            margin-top: 64px;
+            margin-bottom: 24px;
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #AAAAAA;
+        }
+        &_points {
+            display: flex;
+            width: 409px;
+            height: 28px;
+            margin-top: 24px;
+            font-family: 'Cormorant';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: #F5EFDB;
+            &:before {
+                content: "";
+                display: block;
+                width: 16px;
+                height: 1px;
+                background-color: $main-color;
+                margin-right: 8px;
+                margin-top: 14px;
+            }
+        }
+        &_sign {
+            margin-top: 48px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.Patrick_Choi_Achievements {
+    margin-top: 128px;
+}
+
+.offer__wrapper.patrick {
+    margin-top: 24px;
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+}
